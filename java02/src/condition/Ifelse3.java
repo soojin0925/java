@@ -59,10 +59,10 @@ public class Ifelse3 {
 		// 4
 		System.out.println("년도를 입력하세요>>");
 		int year = sc.nextInt();
-		if((년도가 4의 배수이면서 년도가 100의 배수가 아니다) 또는 (년도가 400의 배수면)) {
-			System.out.println("윤년입니다");
-		}else {
-			System.out.println("윤년이 아닙니다);
-		}
+//		if((년도가 4의 배수이면서 년도가 100의 배수가 아니다) 또는 (년도가 400의 배수면)) {
+//			System.out.println("윤년입니다");
+//		}else {
+//			System.out.println("윤년이 아닙니다);
+//		}
 	}	
 }

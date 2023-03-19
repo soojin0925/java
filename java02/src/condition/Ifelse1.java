@@ -23,6 +23,8 @@ public class Ifelse1 {
 		}else {
 			System.out.println("그 밖에");
 		}
+		}
+	}
+}
 
 		
-}

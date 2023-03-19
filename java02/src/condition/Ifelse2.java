@@ -21,9 +21,30 @@ public class Ifelse2 {
 		
 	// if~else if~else : 셋트
 	if(num < 10) {
-		System.out.println("10보다 작다)";
+		System.out.println("10보다 작다");
 	}else if(num <100) {
 		System.out.println("100보다 작다");
 	}else if(num < 1000) {
 		System.out.println("1000보다 작다");		
 	}
+	else {
+		System.out.println("그 밖에");
+	}
+	
+	System.out.println("============================");
+	
+	// if와 관련연산자 사용
+	if(num < 10)  {
+		System.out.println("10보다 작다");
+	}
+	if(num > 10 && num < 100) {
+		System.out.println("10이상이고 100보다 작다");
+	}
+	if(num > 100 && num <1000) {
+		System.out.println("100이상이고 1000보다 작다");
+	}
+	
+		}
+		
+	}
+}
