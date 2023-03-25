@@ -10,12 +10,16 @@ public class Quiz1 {
 			if(i % 2 == 1) {
 				continue;
 			}
-			System.out.print(i + " ");
+			System.out.println(i + " ");
 		}
 						
 		// 2.  정수비밀번호 맞추기(기회는 5번, 맞추면 맞췄다하고 종료, 기회를 모두 사용하면 접속불가)
+		int p = 0;
 		
-		if(p >5 )
+		while(p<5) {
+			System.out.println("비밀번호를 입력하세요");
+			p++;
+		}
 				
 		
 	}
