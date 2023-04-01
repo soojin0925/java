@@ -22,6 +22,7 @@ public class Ifelse1 {
 			System.out.println("1000보다 작습니다");
 		}else {
 			System.out.println("그 밖에");
+		
 		}
 		}
 	}

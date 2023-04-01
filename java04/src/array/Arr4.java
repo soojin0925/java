@@ -42,7 +42,7 @@ public class Arr4 {
 	
 		// 해당하는 위치를 찾는다
 		for(int i=0; i<nation.length; i++) {
-			if(user_input.equals(nation[1])) {
+			if(user_input.equals(nation[i])) {
 				bk_index = i;
 			}
 		}
