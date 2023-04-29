@@ -40,6 +40,7 @@ class MyRandom{
 		Random random = new Random();
 		int result = random.nextInt(10) + 1;
 		System.out.println(result);
+		
 	}
 	
 	// Math 클래스를 사용해서 랜덤
