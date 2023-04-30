@@ -12,14 +12,14 @@ public class Food {
 		// 가격 : 1000, 2000, 3000
 		FoodList fl = new FoodList();
 		Scanner sc = new Scanner(System.in);
+		int choice = 0;
 		
-		System.out.println("==메뉴을 선택하세요==");
 		String str = "";
 		String after = "";
 		int price = 0;
-		int choice = 0;
 		
 		
+		System.out.println("==메뉴을 선택하세요==");
 		while(true) {
 			System.out.println("1.추가 2.변경 3.삭제 4.전체보기 0.끝내기");
 			choice = sc.nextInt();
@@ -34,6 +34,9 @@ public class Food {
 				str = sc.next();
 				System.out.println("변경 후 메뉴명 : ");
 				after = sc.next();
+				
+				System.out.println("변경 메뉴의 가격?");
+				price = sc.nextInt();
 				fl.setFood(str, after);
 			}else if(choice == 3) {
 				System.out.println("삭제할 메뉴명 : ");
