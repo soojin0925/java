@@ -13,7 +13,7 @@ public class Map2 {
 		String word1 = "", word2 = "";
 		int choice = 0;
 		
-		String word_after = "";
+		
 		
 		
 		while(true) {
@@ -60,7 +60,8 @@ class MyDictionary{
 //  private MAp<String, String> map;
 
 	// 메서드 public
-	public void addWord(String word1) {
+	public MyDictionary() {
+		map = new HashMap<String,String>();
 		map.put("flower", "꽃");
 		map.put("sea", "바다");
 		map.put("new", "새로운");	
@@ -76,6 +77,7 @@ class MyDictionary{
 		
 	}
 
+	// 전체 조회
 	public void showAll() {
 		Set<String> set = map.keySet();
 		for(String e : set) {
